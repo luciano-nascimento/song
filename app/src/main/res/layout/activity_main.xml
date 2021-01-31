@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#551A8B"
+
+
+    tools:context="com.soluware.song.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Start"
+            android:onClick="options_menu"
+            android:src="@drawable/play_icon"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_recorde"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Recorde"
+            android:onClick="mostrarRecorde"
+            android:src="@drawable/recorde_icon"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_instrucao"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Instruções"
+            android:onClick="mostrarInstrucoes"
+            android:src="@drawable/instrucoes_icon"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_sobre"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Sobre"
+            android:onClick="mostrarSobre"
+            android:src="@drawable/sobre_icon"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
